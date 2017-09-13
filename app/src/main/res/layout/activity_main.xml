@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xiongpeng.fragmentviewpager02.MainActivity">
+
+
+
+    <FrameLayout
+        android:id="@+id/contanier"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </FrameLayout>
+        <!--<fragment-->
+            <!--android:id="@+id/fragment1"-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+    <!--android:name="com.example.xiongpeng.fragmentviewpager02.WeiXinFragment" -->
+
+    <!--
+        <fragment
+            android:id="@+id/fragment2"
+            android:name="com.example.xiongpeng.fragmentviewpager02.PengYouFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <fragment
+            android:id="@+id/fragment3"
+            android:name="com.example.xiongpeng.fragmentviewpager02.TongXunLuFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <fragment
+            android:id="@+id/fragment4"
+            android:name="com.example.xiongpeng.fragmentviewpager02.SheZhiFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+            -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/weixin_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="微信"
+            android:background="#aaaaaa"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/pengyou_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="朋友"
+            android:background="#aaaaaa"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/tongxunlu_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="通讯录"
+            android:background="#aaaaaa"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/shezhi_bt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:background="#aaaaaa"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>
